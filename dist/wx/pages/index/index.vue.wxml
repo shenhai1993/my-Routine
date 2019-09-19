@@ -1,0 +1,72 @@
+<import src="/components/card.vue.wxml" /><template name="7e052ba9">
+  <view bindtap="handleProxy" class="_div data-v-5dc3cb1e containerBox" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+    <view class="_div data-v-5dc3cb1e userinfo" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <i-avatar src="/static/images/banner.jpg" size="large" class="_i-avatar data-v-5dc3cb1e"></i-avatar>
+      <view class="_div data-v-5dc3cb1e userinfo-nickname"><template data="{{...$root[$kk+'1'], $root}}" is="703dd062"></template></view>
+    </view>
+    <view class="_div data-v-5dc3cb1e content">
+      <i-grid class="_i-grid data-v-5dc3cb1e">
+        <i-grid-item class="_i-grid-item data-v-5dc3cb1e">
+          <navigator url="/pages/counter/main" class="_a data-v-5dc3cb1e counter">
+            <i-grid-icon class="_i-grid-icon data-v-5dc3cb1e">
+              <i-avatar src="/static/images/redAn.jpg" size="small" class="_i-avatar data-v-5dc3cb1e"></i-avatar>
+            </i-grid-icon>
+            <i-grid-label class="_i-grid-label data-v-5dc3cb1e">红岸工程</i-grid-label>
+          </navigator>
+        </i-grid-item>
+        <i-grid-item class="_i-grid-item data-v-5dc3cb1e">
+          <i-grid-icon class="_i-grid-icon data-v-5dc3cb1e">
+            <i-avatar src="/static/images/user.png" size="small" class="_i-avatar data-v-5dc3cb1e"></i-avatar>
+          </i-grid-icon>
+          <i-grid-label class="_i-grid-label data-v-5dc3cb1e">古筝行动</i-grid-label>
+        </i-grid-item>
+        <i-grid-item class="_i-grid-item data-v-5dc3cb1e">
+          <i-grid-icon class="_i-grid-icon data-v-5dc3cb1e">
+            <i-avatar src="/static/images/user.png" size="small" class="_i-avatar data-v-5dc3cb1e"></i-avatar>
+          </i-grid-icon>
+          <i-grid-label class="_i-grid-label data-v-5dc3cb1e">面壁计划</i-grid-label>
+        </i-grid-item>
+      </i-grid>
+      <i-grid class="_i-grid data-v-5dc3cb1e">
+        <i-grid-item class="_i-grid-item data-v-5dc3cb1e">
+          <i-grid-icon class="_i-grid-icon data-v-5dc3cb1e">
+            <i-avatar src="/static/images/user.png" size="small" class="_i-avatar data-v-5dc3cb1e"></i-avatar>
+          </i-grid-icon>
+          <i-grid-label class="_i-grid-label data-v-5dc3cb1e">黑暗森林</i-grid-label>
+        </i-grid-item>
+        <i-grid-item class="_i-grid-item data-v-5dc3cb1e">
+          <i-grid-icon class="_i-grid-icon data-v-5dc3cb1e">
+            <i-avatar src="/static/images/user.png" size="small" class="_i-avatar data-v-5dc3cb1e"></i-avatar>
+          </i-grid-icon>
+          <i-grid-label class="_i-grid-label data-v-5dc3cb1e">阶梯计划</i-grid-label>
+        </i-grid-item>
+        <i-grid-item class="_i-grid-item data-v-5dc3cb1e">
+          <i-grid-icon class="_i-grid-icon data-v-5dc3cb1e">
+            <i-avatar src="/static/images/user.png" size="small" class="_i-avatar data-v-5dc3cb1e"></i-avatar>
+          </i-grid-icon>
+          <i-grid-label class="_i-grid-label data-v-5dc3cb1e">执剑人</i-grid-label>
+        </i-grid-item>
+      </i-grid>
+      <i-grid class="_i-grid data-v-5dc3cb1e">
+        <i-grid-item class="_i-grid-item data-v-5dc3cb1e">
+          <i-grid-icon class="_i-grid-icon data-v-5dc3cb1e">
+            <i-avatar src="/static/images/user.png" size="small" class="_i-avatar data-v-5dc3cb1e"></i-avatar>
+          </i-grid-icon>
+          <i-grid-label class="_i-grid-label data-v-5dc3cb1e">黑域计划</i-grid-label>
+        </i-grid-item>
+        <i-grid-item class="_i-grid-item data-v-5dc3cb1e">
+          <i-grid-icon class="_i-grid-icon data-v-5dc3cb1e">
+            <i-avatar src="/static/images/user.png" size="small" class="_i-avatar data-v-5dc3cb1e"></i-avatar>
+          </i-grid-icon>
+          <i-grid-label class="_i-grid-label data-v-5dc3cb1e">光速飞船</i-grid-label>
+        </i-grid-item>
+        <i-grid-item class="_i-grid-item data-v-5dc3cb1e">
+          <i-grid-icon class="_i-grid-icon data-v-5dc3cb1e">
+            <i-avatar src="/static/images/user.png" size="small" class="_i-avatar data-v-5dc3cb1e"></i-avatar>
+          </i-grid-icon>
+          <i-grid-label class="_i-grid-label data-v-5dc3cb1e">掩体计划</i-grid-label>
+        </i-grid-item>
+      </i-grid>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,6 @@
+
+.card {
+  font-size: 40rpx;
+  padding: 20rpx;
+  color: #000000;
+}

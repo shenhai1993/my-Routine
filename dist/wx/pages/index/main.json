@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents":{
+  "i-grid": "/static/iView/grid/index",
+  "i-avatar": "/static/iView/avatar/index",
+  "i-grid-item": "/static/iView/grid-item/index",
+  "i-grid-icon": "/static/iView/grid-icon/index",
+  "i-grid-label": "/static/iView/grid-label/index"}
+}

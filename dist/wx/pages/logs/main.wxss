@@ -1,0 +1,14 @@
+@import "../../common/vendor.wxss";
+
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.thumbnail {
+  width: 750rpx;
+  height: 375rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
