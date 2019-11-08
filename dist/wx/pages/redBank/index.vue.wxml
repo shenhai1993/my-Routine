@@ -1,0 +1,12 @@
+<import src="/components/head.vue.wxml" /><template name="0d3e9d78">
+  <view class="_div data-v-4d4676b9"><template data="{{...$root[$kk+'0'], $root}}" is="f444fac2"></template>
+    <view class="_div data-v-4d4676b9 blank">轮播组件</view>
+    <swiper class="_swiper data-v-4d4676b9 swiper" circular="true" indicator-dots="true" indicator-color="#f4f4f4" indicator-active-color="#4eb8b8" autoplay="true" interval="2000" duration="1000">
+      <block index="{{index}}" wx:key="key" key="{{key}}" wx:for="{{movies}}" wx:for-index="index" wx:for-item="item">
+        <swiper-item class="_swiper-item data-v-4d4676b9">
+          <image src="{{item.url}}" class="_image data-v-4d4676b9 slide-image" mode="aspectFill" style="width: 100%;height: 100%"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</template>

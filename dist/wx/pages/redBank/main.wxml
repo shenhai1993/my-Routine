@@ -1,0 +1,1 @@
+<import src="/pages/redBank/index.vue.wxml" /><template is="0d3e9d78" data="{{ ...$root['0'], $root }}"/>

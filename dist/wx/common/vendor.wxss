@@ -1,4 +1,13 @@
 
+.head {
+  height: 90rpx;
+  text-align: center;
+  line-height: 110rpx;
+  background: linear-gradient(to right, rgb(0, 65, 106), rgb(228, 229, 230));
+  font-size: 34rpx;
+  padding: 20rpx;
+  color: #ffffff;
+}
 .card {
   font-size: 40rpx;
   padding: 20rpx;

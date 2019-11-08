@@ -1,0 +1,15 @@
+@import "../../common/vendor.wxss";
+
+page {
+  background-color: #f5f5f5;
+}
+.swiper {
+  height: 350rpx;
+}
+.blank {
+  font-size: 24rpx;
+  background: #fff;
+  height: 90rpx;
+  line-height: 90rpx;
+  padding-left: 30rpx;
+}

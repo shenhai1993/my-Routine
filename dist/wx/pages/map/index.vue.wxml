@@ -1,0 +1,3 @@
+<template name="88633c1a">
+  <view class="_div data-v-1bd45b68"><map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindmarkertap="markertap" markers="{{markers}}" show-location class="_map data-v-1bd45b68"></map></view>
+</template>

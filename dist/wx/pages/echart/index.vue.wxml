@@ -1,0 +1,6 @@
+<import src="/components/head.vue.wxml" />
+<import src="/modules/mpvue-echarts/src/echarts.vue.wxml" /><template name="36106384">
+  <view class="_div data-v-3857a6e3"><template data="{{...$root[$kk+'0'], $root}}" is="f444fac2"></template>
+    <view class="_div data-v-3857a6e3 wrap-echart"><template canvasId="demo-canvas" data="{{...$root[$kk+'1'], $root}}" is="1259f623"></template></view>
+  </view>
+</template>

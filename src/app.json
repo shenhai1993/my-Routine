@@ -2,13 +2,20 @@
   "pages": [
     "pages/index/main",
     "pages/logs/main",
-    "pages/counter/main"
+    "pages/redBank/main",
+    "pages/counter/main",
+    "pages/echart/main",
+    "pages/map/main"
   ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationStyle": "custom",
+    "navigationBarTitleText": "WeChat"
   },
   "tabBar": {
     "color": "#999",
@@ -22,7 +29,7 @@
       "iconPath": "static/tabs/home.png",
       "selectedIconPath": "static/tabs/home-active.png"
     }, {
-      "text": "订单",
+      "text": "个人中心",
       "pagePath": "pages/logs/main",
       "iconPath": "static/tabs/orders.png",
       "selectedIconPath": "static/tabs/orders-active.png"

@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "linear-gradient(#fe0000, #00ff84)",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "微信接口功能演示",
+  "backgroundColor": "#999999",
+  "backgroundTextStyle": "light",
+  "backgroundColorTop": "#000000"
+}

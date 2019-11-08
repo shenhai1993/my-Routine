@@ -1,5 +1,6 @@
 {
   "navigationBarTitleText": "首页",
+  "backgroundColor": "#000000",
   "usingComponents":{
   "i-grid": "/static/iView/grid/index",
   "i-avatar": "/static/iView/avatar/index",

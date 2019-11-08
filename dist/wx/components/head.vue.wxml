@@ -1,0 +1,4 @@
+<template name="f444fac2">
+  <view class="_div data-v-7ac14c4d head">{{title}}
+  </view>
+</template>
