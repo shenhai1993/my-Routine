@@ -99,7 +99,15 @@ export default {
   components: {
     card
   },
-
+  mounted () {
+    this.$wxhttp.get({
+      url: 'https://www.easy-mock.com/mock/5b208d62e53f3b06d55ddfa0/example/trace',
+      data: {
+      }
+    }).then(res => {
+      console.log(res)
+    })
+  },
   methods: {
     bindViewTap () {
       const url = '../logs/main'
